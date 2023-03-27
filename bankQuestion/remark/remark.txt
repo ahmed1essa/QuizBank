@@ -1,0 +1,133 @@
+﻿//*************************************************
+
+        private bool activeThisUser()
+        {
+            bool Res = true;
+            int userID=Convert.ToInt32(Session["userOKID"].ToString());
+            int activeCode = Convert.ToInt32(txtActiveCode.Text);
+            //****************************************
+            SqlConnection myConnection = new SqlConnection();
+            SqlCommand myCommand = new SqlCommand();
+            try
+            {
+                String connectionString = ConfigurationManager.ConnectionStrings["bankQuestionsConnectionString"].ConnectionString.ToString();
+
+                myConnection.ConnectionString = connectionString;
+                myConnection.Open();
+
+                myCommand.Connection = myConnection;
+                myCommand.CommandType = CommandType.StoredProcedure;
+
+                myCommand.CommandText = "user_activeUser";
+                myCommand.Parameters.Clear();
+
+                myCommand.Parameters.Add(new SqlParameter("@userIDOK", userID));
+
+                myCommand.Parameters.Add(new SqlParameter("@activCode", activeCode));
+
+                //OutputCacheLocation SQL
+                IDbDataParameter myOutParameter = myCommand.CreateParameter();
+                myOutParameter.Direction = ParameterDirection.ReturnValue;
+                myCommand.Parameters.Add(myOutParameter);
+
+                int Res1 = myCommand.ExecuteNonQuery();
+                int Res2 = Convert.ToInt16(myOutParameter.Value);
+                if (Res2 != 0)
+                {
+                    //MessageBox.Show(this,"هناك مشكلة في الحفظ");
+                    lblMessage.Text = "هناك مشكلة في الحفظ";
+                }
+                else
+                {
+                    //MessageBox.Show(this, "تم الحفظ");
+                    lblMessage.Text = "تم الحفظ";
+                }
+            }
+            catch (Exception e)
+            {
+                //MessageBox.Show(this, e.Message);
+                lblMessage.Text = e.Message;
+            }
+            finally
+            {
+                myCommand.Dispose();
+                if (myConnection.State == ConnectionState.Open)
+                {
+                    myConnection.Close();
+                }
+            }
+
+            return Res;
+
+        }
+//*************************************************
+//*************************************************
+//*************************************************
+
+        private bool getUserData()
+        {
+            bool Res = true;
+            //****************************************
+            SqlConnection myConnection = new SqlConnection();
+            SqlCommand myCommand = new SqlCommand();
+            try
+            {
+                String connectionString = ConfigurationManager.ConnectionStrings["bankQuestionsConnectionString"].ConnectionString.ToString();
+
+                myConnection.ConnectionString = connectionString;
+                myConnection.Open();
+
+                myCommand.Connection = myConnection;
+                myCommand.CommandType = CommandType.StoredProcedure;
+
+                myCommand.CommandText = "user_getSession";
+                myCommand.Parameters.Clear();
+
+                myCommand.Parameters.Add(new SqlParameter("@userID", userID));
+
+                //OutputCacheLocation SQL
+                IDbDataParameter myOutParameter = myCommand.CreateParameter();
+                myOutParameter.Direction = ParameterDirection.ReturnValue;
+                myCommand.Parameters.Add(myOutParameter);
+
+                SqlDataReader myData= myCommand.ExecuteReader();
+                int Res2 = Convert.ToInt16(myOutParameter.Value);
+                if (Res2 == 0)
+                {
+                    if (myData.HasRows)
+                    {
+                        while (myData.Read())
+                        {
+                            Session["userOKID"] = myData["userIDOK"].ToString();
+                            Session["fullName"] = myData["fullName"].ToString();
+                            Session["isSubscriber"] = myData["isSubscriber"].ToString();
+                            Session["employID"] = myData["employRef"].ToString();
+                        }
+                    }
+                    else
+                    {
+                        viewError();
+                    }
+
+                }
+                else
+                {
+                    viewError();
+                }
+            }
+            catch (Exception e)
+            {
+                viewError();
+            }
+            finally
+            {
+                myCommand.Dispose();
+                if (myConnection.State == ConnectionState.Open)
+                {
+                    myConnection.Close();
+                }
+            }
+
+            return Res;
+
+        }

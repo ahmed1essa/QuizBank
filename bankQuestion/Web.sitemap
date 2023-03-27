@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="###" description="Home" roles="*">
+    <!--الرئيسية-->
+    <siteMapNode title="الرئيسية" url="~\home\p0.aspx">
+      <siteMapNode url="~\home\home.aspx" title="الصفحة الرئيسية"  description="" />
+      <!--Uadmin-->
+      <!--Ubank-->
+      <!--Uexam-->
+      <siteMapNode url="~\Uexam\page3.aspx" title="exam1"  description="" />
+      <siteMapNode url="~\Uexam\page4.aspx" title="exam2" description="" />
+      <!--Uguest-->
+      <siteMapNode url="~\Uguest\activeUser.aspx" title="الاشتراك" description="" />
+      <!--UsuperAdmin-->
+      <siteMapNode url="~\UsuperAdmin\membership\rolesData.aspx" title="الصلاحيات" description="" />
+      <siteMapNode url="~\UsuperAdmin\membership\usersData.aspx" title="المستخدمين" description="" />
+    </siteMapNode>
+    <!--المستخدمين-->
+    <siteMapNode title="المستخدمين" url="~\home\p1.aspx">
+      <!--Uadmin-->
+      <siteMapNode url="~\Uadmin\user\userEmployData.aspx" title="مشرفين الموقع" description="" />
+      <!--Ubank-->
+      <siteMapNode url="~\Ubank\user\userData.aspx" title="مستخدمين الموقع" description="" />
+    </siteMapNode>
+    <!--الوظائف-->  
+    <siteMapNode title="الوظائف" url="~\home\p2.aspx">
+          <!--Uadmin-->
+            <siteMapNode url="~\Uadmin\employ\employMainData.aspx" title="الوظائف الاساسية" description="" />
+      <siteMapNode url="~\Uadmin\employ\employData.aspx" title="بيانات الوظائف" description="" />
+    </siteMapNode>
+    <!--بنوك الاسئلة-->
+    <siteMapNode title="بنوك الاسئلة" url="~\home\p3.aspx">
+      <!--Uadmin-->
+      <siteMapNode url="~\Uadmin\bank\bankData.aspx" title="بنوك الاسئلة" description="" />
+      <siteMapNode url="~\Uadmin\bank\bankLink.aspx" title="ربط البنوك" description="" />
+      <siteMapNode url="~\Ubank\bank\bankSubject.aspx" title="المواضيع" description="" />
+      <!--Ubank-->
+      <siteMapNode url="~\Ubank\question\questionData.aspx" title="الاسئلة" description="" />
+      <siteMapNode url="~\Ubank\question\questionXLS.aspx" title="الاسئلة-أكسل" description="" />
+      <siteMapNode url="~\Ubank\question\questionPicture.aspx" title="رفع الصور" description="" />
+      <siteMapNode url="~\Ubank\exam\examData.aspx" title="الامتحانات" description="" />
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>
+

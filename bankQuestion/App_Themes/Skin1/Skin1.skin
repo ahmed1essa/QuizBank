@@ -1,0 +1,13 @@
+﻿<asp:label runat="server"
+    BackColor="#0099CC" 
+    Font-Size="XX-Large"
+     ForeColor="#FF6666" 
+    Width="500px">
+</asp:label>
+
+<dx:ASPxGridView 
+        AutoGenerateColumns="False"
+        Width="100%" RightToLeft="True">
+</dx:ASPxGridView>
+
+

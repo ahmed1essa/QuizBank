@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\appBank</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="admin/page1.aspx">
+      <publishTime>02/27/2023 21:15:34</publishTime>
+    </File>
+    <File Include="admin/page2.aspx">
+      <publishTime>02/27/2023 21:15:34</publishTime>
+    </File>
+    <File Include="admin/Web.config">
+      <publishTime>02/27/2023 11:27:16</publishTime>
+    </File>
+    <File Include="bank/bank1.aspx">
+      <publishTime>02/27/2023 21:07:27</publishTime>
+    </File>
+    <File Include="bank/bank2.aspx">
+      <publishTime>02/27/2023 21:05:41</publishTime>
+    </File>
+    <File Include="bank/Web.config">
+      <publishTime>02/27/2023 20:57:13</publishTime>
+    </File>
+    <File Include="bin/bankQuestion.dll">
+      <publishTime>03/19/2023 11:42:56</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Data.v16.2.resources.dll">
+      <publishTime>03/02/2023 07:46:56</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Office.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Pdf.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Printing.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.RichEdit.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:06</publishTime>
+    </File>
+    <File Include="bin/de/DevExpress.Web.v16.2.resources.dll">
+      <publishTime>03/02/2023 07:46:52</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Data.v16.2.dll">
+      <publishTime>03/02/2023 07:46:56</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Office.v16.2.Core.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Pdf.v16.2.Core.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Printing.v16.2.Core.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/DevExpress.RichEdit.v16.2.Core.dll">
+      <publishTime>03/02/2023 07:47:06</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.ASPxThemes.v16.2.dll">
+      <publishTime>03/02/2023 07:46:54</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.Resources.v16.2.dll">
+      <publishTime>03/02/2023 07:47:02</publishTime>
+    </File>
+    <File Include="bin/DevExpress.Web.v16.2.dll">
+      <publishTime>03/02/2023 07:46:52</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Data.v16.2.resources.dll">
+      <publishTime>03/02/2023 07:46:56</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Office.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Pdf.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Printing.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.RichEdit.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:06</publishTime>
+    </File>
+    <File Include="bin/es/DevExpress.Web.v16.2.resources.dll">
+      <publishTime>03/02/2023 07:46:52</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Data.v16.2.resources.dll">
+      <publishTime>03/02/2023 07:46:56</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Office.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Pdf.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Printing.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.RichEdit.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:06</publishTime>
+    </File>
+    <File Include="bin/ja/DevExpress.Web.v16.2.resources.dll">
+      <publishTime>03/02/2023 07:46:52</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>02/26/2023 19:13:02</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Data.v16.2.resources.dll">
+      <publishTime>03/02/2023 07:46:56</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Office.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Pdf.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Printing.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:00</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.RichEdit.v16.2.Core.resources.dll">
+      <publishTime>03/02/2023 07:47:06</publishTime>
+    </File>
+    <File Include="bin/ru/DevExpress.Web.v16.2.resources.dll">
+      <publishTime>03/02/2023 07:46:52</publishTime>
+    </File>
+    <File Include="default.aspx">
+      <publishTime>03/03/2023 13:48:48</publishTime>
+    </File>
+    <File Include="guest/guest1.aspx">
+      <publishTime>02/27/2023 21:07:27</publishTime>
+    </File>
+    <File Include="guest/guest2.aspx">
+      <publishTime>02/27/2023 21:07:27</publishTime>
+    </File>
+    <File Include="home.aspx">
+      <publishTime>02/27/2023 16:55:14</publishTime>
+    </File>
+    <File Include="home/home.aspx">
+      <publishTime>03/04/2023 23:31:10</publishTime>
+    </File>
+    <File Include="home/p0.aspx">
+      <publishTime>03/09/2023 12:53:21</publishTime>
+    </File>
+    <File Include="home/p1.aspx">
+      <publishTime>03/09/2023 12:51:54</publishTime>
+    </File>
+    <File Include="home/p2.aspx">
+      <publishTime>03/09/2023 12:52:24</publishTime>
+    </File>
+    <File Include="home/p3.aspx">
+      <publishTime>03/09/2023 12:52:36</publishTime>
+    </File>
+    <File Include="home/p4.aspx">
+      <publishTime>03/09/2023 12:52:47</publishTime>
+    </File>
+    <File Include="home/Web.config">
+      <publishTime>03/05/2023 20:16:00</publishTime>
+    </File>
+    <File Include="login.aspx">
+      <publishTime>03/08/2023 01:10:12</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>02/27/2023 10:37:08</publishTime>
+    </File>
+    <File Include="page/home1.aspx">
+      <publishTime>02/27/2023 21:12:50</publishTime>
+    </File>
+    <File Include="page/home2.aspx">
+      <publishTime>02/27/2023 21:12:50</publishTime>
+    </File>
+    <File Include="page/user/createUser.aspx">
+      <publishTime>03/16/2023 00:24:07</publishTime>
+    </File>
+    <File Include="page/Web.config">
+      <publishTime>02/27/2023 20:56:24</publishTime>
+    </File>
+    <File Include="remark/remark.txt">
+      <publishTime>03/06/2023 00:37:43</publishTime>
+    </File>
+    <File Include="remark/TextFile1.txt">
+      <publishTime>03/17/2023 01:50:14</publishTime>
+    </File>
+    <File Include="Site1.Master">
+      <publishTime>03/07/2023 01:28:45</publishTime>
+    </File>
+    <File Include="superAdmin/membership/rolesData.aspx">
+      <publishTime>02/27/2023 17:55:03</publishTime>
+    </File>
+    <File Include="superAdmin/membership/usersData.aspx">
+      <publishTime>02/27/2023 20:06:29</publishTime>
+    </File>
+    <File Include="superAdmin/Web.config">
+      <publishTime>02/27/2023 20:55:38</publishTime>
+    </File>
+    <File Include="test.aspx">
+      <publishTime>03/05/2023 20:27:59</publishTime>
+    </File>
+    <File Include="Uadmin/bank/bankData.aspx">
+      <publishTime>03/18/2023 01:43:38</publishTime>
+    </File>
+    <File Include="Uadmin/bank/bankLink.aspx">
+      <publishTime>03/17/2023 23:16:57</publishTime>
+    </File>
+    <File Include="Uadmin/employ/employData.aspx">
+      <publishTime>03/18/2023 01:28:52</publishTime>
+    </File>
+    <File Include="Uadmin/employ/employMainData.aspx">
+      <publishTime>03/18/2023 01:21:45</publishTime>
+    </File>
+    <File Include="Uadmin/user/userEmployData.aspx">
+      <publishTime>03/18/2023 01:28:52</publishTime>
+    </File>
+    <File Include="Uadmin/Web.config">
+      <publishTime>02/27/2023 11:27:16</publishTime>
+    </File>
+    <File Include="Ubank/bank/bankSubJect.aspx">
+      <publishTime>03/17/2023 23:28:55</publishTime>
+    </File>
+    <File Include="Ubank/exam/examBank.aspx">
+      <publishTime>03/17/2023 22:06:44</publishTime>
+    </File>
+    <File Include="Ubank/exam/examData.aspx">
+      <publishTime>03/17/2023 22:23:56</publishTime>
+    </File>
+    <File Include="Ubank/question/questionData.aspx">
+      <publishTime>03/18/2023 01:02:01</publishTime>
+    </File>
+    <File Include="Ubank/question/questionPicture.aspx">
+      <publishTime>03/18/2023 01:01:48</publishTime>
+    </File>
+    <File Include="Ubank/question/questionXLS.aspx">
+      <publishTime>03/18/2023 01:05:27</publishTime>
+    </File>
+    <File Include="Ubank/user/userData.aspx">
+      <publishTime>03/18/2023 01:43:38</publishTime>
+    </File>
+    <File Include="Ubank/Web.config">
+      <publishTime>02/27/2023 20:57:13</publishTime>
+    </File>
+    <File Include="Uexam/page3.aspx">
+      <publishTime>02/28/2023 07:54:21</publishTime>
+    </File>
+    <File Include="Uexam/page4.aspx">
+      <publishTime>02/28/2023 07:54:20</publishTime>
+    </File>
+    <File Include="Uexam/Web.config">
+      <publishTime>02/28/2023 07:55:59</publishTime>
+    </File>
+    <File Include="Uguest/user/activeUser.aspx">
+      <publishTime>03/04/2023 23:03:58</publishTime>
+    </File>
+    <File Include="Uguest/Web.config">
+      <publishTime>03/09/2023 12:57:50</publishTime>
+    </File>
+    <File Include="user/page3.aspx">
+      <publishTime>02/27/2023 16:55:13</publishTime>
+    </File>
+    <File Include="user/page4.aspx">
+      <publishTime>02/27/2023 16:55:13</publishTime>
+    </File>
+    <File Include="user/Web.config">
+      <publishTime>02/27/2023 20:56:41</publishTime>
+    </File>
+    <File Include="UsuperAdmin/membership/rolesData.aspx">
+      <publishTime>02/27/2023 17:55:03</publishTime>
+    </File>
+    <File Include="UsuperAdmin/membership/usersData.aspx">
+      <publishTime>02/27/2023 20:06:29</publishTime>
+    </File>
+    <File Include="UsuperAdmin/Web.config">
+      <publishTime>03/18/2023 22:02:17</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/19/2023 11:42:57</publishTime>
+    </File>
+    <File Include="Web.sitemap">
+      <publishTime>03/18/2023 01:15:49</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

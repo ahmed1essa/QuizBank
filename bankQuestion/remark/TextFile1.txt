@@ -1,0 +1,19 @@
+﻿-------------------------
+(1) hide new buuton
+-------------------------
+protected void gView_DataBinding...
+{
+GridViewCommandColumn col = (GridViewCommandColumn)gView.Columns[0];
+	if (cmbBankData.SelectedIndex == -1)
+	{
+		col.ShowNewButtonInHeader = false;
+	}
+	else
+	{
+		col.ShowNewButtonInHeader = true;
+	}
+}
+**********************************************
+**********************************************
+**********************************************
+**********************************************
